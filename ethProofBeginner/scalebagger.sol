@@ -16,14 +16,14 @@ pragma solidity 0.8.19;
 */
 
 contract NewToken {
-                     // public variables
-string public tokenName = 'scalebagger';
-       string public tokenAbbrv = 'SCL';
-            uint public totalSupply = 00
 
- 
-                                // mapping
-  mapping(address => uint) public balances;
+                   // public variables indicated
+               string public tokenName = 'scalebagger';
+            string public tokenAbbrv = 'SCL';
+          uint public totalSupply = 0;
+
+                                                            // mapping variable here
+                                             mapping(address => uint) public balances;
 
 
                                              // mint f_n
